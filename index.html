@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CPS Prime MUN Billing</title>
+  <link rel="icon" href="https://i.postimg.cc/prCSPJcS/CPS-Prime-MUN.png">
+  <link href="dist/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo" src="assets\white_logo.png" alt="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a class="#">Home</a></li>
+        <li><a class="#">Codes</a></li>
+        <li><a class="#">Help</a></li>
+      </ul>
+    </nav>
+    <h3 id="order-number">0 </h3>
+    <div class="toggle-button" id="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+
+  <section id="section">
+    <div id="stall-container">
+      <div id="stall-div"></div>
+    </div>
+
+    <div id="menu-container">
+      <div id="menu-div"></div>
+    </div>
+    <div id="receipt-div">
+      <div class="table-container">
+        <table class="table" id="table">
+          <thead id="tabelhead">
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="newtr">
+
+          </tbody>
+        </table>
+      </div>
+      <div id="printing-container">
+
+        <button id="print-btn">Generate Token</button>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="dist/bundle.js"></script>
+</body>
+
+
+</html>
